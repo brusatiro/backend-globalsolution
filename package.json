@@ -20,7 +20,7 @@
       "typeorm": "0.3.15"
    },
    "scripts": {
-      "build": "tsc -p.",
+      "build": "tsc",
       "dev": "nodemon src/index.ts",
       "start": "cd dist && node src/index.js"
    }
